@@ -9,10 +9,10 @@ app.use(express.json());
 
 // MySQL connection setup
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "lost_and_found"
+  host: "sql12.freesqldatabase.com",
+  user: "sql12785634",
+  password: "wPvkVP7uKV",
+  database: "sql12785634"
 });
 
 db.connect((err) => {
